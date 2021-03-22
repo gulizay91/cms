@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cms.Mail\Cms.Mail.csproj" />
+    <ProjectReference Include="..\Cms.Mapping\Cms.Mapping.csproj" />
+    <ProjectReference Include="..\Cms.Repository.Interface\Cms.Repository.Interface.csproj" />
+    <ProjectReference Include="..\Cms.Service.Interface\Cms.Service.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

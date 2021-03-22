@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exchanges\Company\" />
+    <Folder Include="Exchanges\Boat\" />
+    <Folder Include="Exchanges\BoatCrew\" />
+    <Folder Include="Exchanges\Charter\" />
+    <Folder Include="Exchanges\Crew\" />
+    <Folder Include="Exchanges\Marina\" />
+    <Folder Include="Exchanges\Fixture\" />
+    <Folder Include="Exchanges\Expense\" />
+    <Folder Include="Exchanges\ExpenseType\" />
+    <Folder Include="Exchanges\Settings\" />
+    <Folder Include="Exchanges\UserType\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
