@@ -19,7 +19,7 @@ namespace Cms.XUnitTest
 
     public UserControllerTest()
     {
-      _uof = new UnitOfWork();
+      //_uof = new UnitOfWork();
       _service = new UserService(_uof, AutomapperSingleton.Mapper);
       //_controller = new UserController(_service);
     }
